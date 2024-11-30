@@ -21,7 +21,23 @@
              
          }
         
+        function getHumanChoice() {
+            let b = prompt("rock,paper or scissors","")
+            if (b ="rock") {
+                return "rock"
+            }
+            else if (b ="paper") {
+                return "paper";
+             }
+            else if (b ="scissors") {
+                return scissors;
         
+            }
+            // How to make the function run again in the case of an illegal value
+            else {
+                 getHumanChoice();
+            }
+        }
         
      </script>
     
